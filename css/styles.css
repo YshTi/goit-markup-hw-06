@@ -215,8 +215,6 @@ body:has(.backdrop.is-open) {
     }
 
     .contacts-link {
-        padding: 16px 0;
-
         font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
@@ -275,12 +273,11 @@ body:has(.backdrop.is-open) {
 
 .hero-container {
     padding: 72px 52px;
-    max-width: 1440px;
+    max-width: 320px;
     margin: 0 auto;
     color: #FFF;
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url("../images/hero/background.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/background_mob.png");
     background-color: #2E2F42;
     background-repeat: no-repeat;
     background-position: center;
@@ -304,6 +301,8 @@ body:has(.backdrop.is-open) {
 @media screen and (min-width: 768px) {
     .hero-container {
         padding: 112px 136px;
+        max-width: 768px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/background_tab.png");
     }
 
     .hero-title {
@@ -316,6 +315,8 @@ body:has(.backdrop.is-open) {
 @media screen and (min-width: 1440px) {
     .hero-container {
         padding: 188px 0;
+        max-width: 1440px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/background_desk.png");
     }
 
     .hero-title {
@@ -462,10 +463,11 @@ body:has(.backdrop.is-open) {
     .team-list {
         gap: 64px 24px;
         padding: 0;
-        margin: 0 92px;
+        justify-content: center;
     }
     .team-item {
-        flex-basis: calc((100% - 24px) / 2);
+        width: 264px;
+        height: 428px;
     }
 }
 
