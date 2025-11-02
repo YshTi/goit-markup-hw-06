@@ -472,7 +472,7 @@ body:has(.backdrop.is-open) {
 @media only screen and (min-width: 1440px) {
     .team-list {
         gap: 24px;
-        padding: 0;
+        margin: 0 auto;
     }
     .team-item {
         flex-basis: calc((100% - 3*24px) / 4);
