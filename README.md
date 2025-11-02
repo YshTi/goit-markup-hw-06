@@ -1,2 +1,2 @@
-# goit-markup-hw-05
-Foutrth homework in GoIT school with using CSS
+# goit-markup-hw-06
+Last homework in GoIT school using only HTML and CSS. 
