@@ -1,6 +1,6 @@
- .hide {
+ /* .hide {
      display: none !important;
- }
+ } */
 
  @media screen and (min-width: 320px) {
     body::-webkit-scrollbar {
