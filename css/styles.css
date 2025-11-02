@@ -68,7 +68,7 @@ body:has(.backdrop.is-open) {
     padding: 96px 0;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .section {
         padding: 120px 0;
     }
@@ -106,7 +106,7 @@ body:has(.backdrop.is-open) {
 }
 
 /*? DESCTOP DESIGN STYLES */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
         padding: 0 15px;
@@ -161,7 +161,7 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
     .header-logo {
         margin-right: 76px;
     }
@@ -250,7 +250,7 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media screen  and (min-width: 1440px) {
+@media screen  and (min-width: 1158px) {
     .contacts-list {
         flex-direction: row;
         align-items: center;
@@ -330,10 +330,10 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
     .hero-container {
         padding: 188px 0;
-        max-width: 1440px;
+        max-width: 1158px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/background_desk.png");
     }
 
@@ -388,7 +388,7 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .benefits {
         gap: 24px;
     }
@@ -421,7 +421,7 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .benefits-item {
         flex-basis: calc((100% - 3*24px) / 4);
     }
@@ -438,7 +438,7 @@ body:has(.backdrop.is-open) {
     display: none;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .icon-block {
         display: flex;
         border: 1px solid #8E8F99;
@@ -495,7 +495,7 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .team-list {
         gap: 24px;
         margin: 0 auto;
@@ -573,7 +573,7 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .portfolio-list {
         row-gap: 48px;
     }
@@ -590,7 +590,7 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .portfolio-item {
         flex-basis: calc((100% - 2*24px) / 3);
     }
@@ -659,7 +659,7 @@ body:has(.backdrop.is-open) {
     padding: 96px 0;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .page-footer {
         padding: 100px 0;
     }
@@ -690,7 +690,7 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .footer-content {
         flex-direction: row;
         align-items: baseline;
@@ -756,7 +756,7 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .footer-networks {
         justify-content: flex-start;
         margin-bottom: 0;
@@ -807,7 +807,7 @@ body:has(.backdrop.is-open) {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
     .footer-subscription {
         display: block;
         width: 453px;
