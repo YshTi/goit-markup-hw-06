@@ -1,7 +1,11 @@
  .hide {
      display: none !important;
  }
- 
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
  /* #region CSS reset and common styles */
  h1,
  h2,
@@ -284,6 +288,12 @@ body:has(.backdrop.is-open) {
     background-size: cover;
 }
 
+@media (min-resolution: 192dpi) {
+    .hero-container {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/background_mob@2x.png");
+    } 
+}
+
 .hero-title {
     font-weight: 700;
     font-size: 36px;
@@ -305,6 +315,12 @@ body:has(.backdrop.is-open) {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/background_tab.png");
     }
 
+    @media (min-resolution: 192dpi) {
+        .hero-container {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/background_tab@2x.png");
+        }
+    }
+
     .hero-title {
         font-size: 56px;
         line-height: 1.07;
@@ -317,6 +333,12 @@ body:has(.backdrop.is-open) {
         padding: 188px 0;
         max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/background_desk.png");
+    }
+
+    @media (min-resolution: 192dpi) {
+        .hero-container {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/background_desk@2x.png");
+        }
     }
 
     .hero-title {
