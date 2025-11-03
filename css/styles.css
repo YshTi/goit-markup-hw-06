@@ -827,6 +827,12 @@ body:has(.backdrop.is-open) {
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-start;
+        gap: 24px;
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .media-logo-footer {
         gap: 0;
     }
 }
